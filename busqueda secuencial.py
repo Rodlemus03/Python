@@ -1,19 +1,8 @@
-#Importamos la libreria para generar numeros random
+#Importamos la libreria para generar numeros random y la funcion para crear vectores, de otro programa
+from crear_vector import crear_vector
 from random import randint
 #Pedimos la longitud que va a tener la lista, para crearla
 longitud=int(input("Ingresa la longitud para el vector  "))
-#La funcion tiene un argumento, que sera la longitud del vector a crearlo
-def crear_vector(lon):
-    #Declaramos el vector, vacio
-    vec=[]
-    #Por cada vuelta en la longitud del vector
-    for i in range(lon):
-        #Generamos un numero random
-        x=randint(1,99)
-        #Agregamos el numero que generamos la final de la lista.
-        vec.append(x)
-    #Retornamos el vector
-    return vec
 #Asignamos el la respuesta de la funcion para crear, a una variable
 vector=crear_vector(longitud)
 #Pedimos un numero para buscar en la lista
