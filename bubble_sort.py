@@ -1,5 +1,3 @@
-from multiprocessing.context import BaseContext
-from operator import truediv
 from crear_vector import crear_vector
 v=crear_vector(10)
 #Version 1
